@@ -26,3 +26,5 @@ go.work
 # Config file
 config.json
 
+
+dist/
