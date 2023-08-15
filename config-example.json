@@ -1,0 +1,15 @@
+{
+  "server": {
+    "host": "0.0.0.0",
+    "port": "443",
+    "sslCertFile": "/path/to/cert/domain.com.bundle.crt",
+    "sslKeyFile": "/path/to/cert/domain.com.key"
+  },
+  "db": {
+    "host": "10.10.10.100",
+    "port": 5432,
+    "user": "admin",
+    "password": "123456",
+    "dbname": "db_name"
+  }
+}
