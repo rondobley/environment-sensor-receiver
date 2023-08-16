@@ -1,4 +1,4 @@
-module temperature-sensor-receiver
+module environment-sensor-receiver
 
 go 1.20
 

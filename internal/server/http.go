@@ -2,12 +2,12 @@ package server
 
 import (
 	"bytes"
+	"environment-sensor-receiver/internal/checkerror"
+	"environment-sensor-receiver/internal/db"
 	"fmt"
 	"github.com/gin-gonic/gin"
 	"github.com/rs/zerolog/log"
 	"io"
-	"temperature-sensor-receiver/internal/checkerror"
-	"temperature-sensor-receiver/internal/db"
 )
 
 func NewHTTPServer() (*gin.Engine, *httpServer) {

@@ -2,9 +2,9 @@ package db
 
 import (
 	"context"
+	"environment-sensor-receiver/internal/config"
 	"fmt"
 	"github.com/jackc/pgx/v5/pgxpool"
-	"temperature-sensor-receiver/internal/config"
 )
 
 func NewDb() (context.Context, *pgxpool.Pool, error) {

@@ -1,10 +1,10 @@
 package config
 
 import (
+	"environment-sensor-receiver/internal/checkerror"
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/viper"
 	"os"
-	"temperature-sensor-receiver/internal/checkerror"
 )
 
 var Config Configuration
@@ -16,7 +16,7 @@ func LoadConfig(env string) {
 	if env == "local" {
 		viper.AddConfigPath(".")
 	} else if env == "prod" {
-		viper.AddConfigPath("/usr/local/etc/temperature-sensor-receiver")
+		viper.AddConfigPath("/usr/local/etc/environment-sensor-receiver")
 	} else {
 		log.Error().Msgf("Unsupported environment: %s", env)
 		os.Exit(1)

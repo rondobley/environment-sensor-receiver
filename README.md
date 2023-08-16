@@ -10,7 +10,7 @@ a personal project so I can learn and get better developing projects on Go.
 
 Create a config file, see [config-example.json](config-example.json). If running locally,
 place the config file in the root dir of the project, if running in production, place the
-file in `/usr/local/etc/temperature-sensor-recevier`.
+file in `/usr/local/etc/environment-sensor-recevier`.
 
 ## Options
 `-env` to set the environment to either `prod` for production or `local` for local dev.

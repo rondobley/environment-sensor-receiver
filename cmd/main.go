@@ -1,12 +1,12 @@
 package main
 
 import (
+	"environment-sensor-receiver/internal/config"
+	"environment-sensor-receiver/internal/server"
 	"flag"
 	"fmt"
 	"github.com/gin-gonic/gin"
 	"github.com/rs/zerolog"
-	"temperature-sensor-receiver/internal/config"
-	"temperature-sensor-receiver/internal/server"
 )
 
 func main() {
