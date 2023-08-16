@@ -1,5 +1,5 @@
-# Temperature Sensor Receiver
-This is part of a project where I used a couple of environmental sensors to capture
+# Environment Sensor Receiver
+This is part of a project where I used a couple of BMP280 environmental sensors to capture
 temperature data, etc. The sensors send JSON messages to this receiver, which then
 processes them and inserts them into a TimeScaleDb instance.
 
