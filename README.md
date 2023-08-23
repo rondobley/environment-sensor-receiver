@@ -4,7 +4,7 @@ temperature data, etc. The sensors send JSON messages to this receiver, which th
 processes them and inserts them into a TimeScaleDb instance.
 
 This is not meant to be a real world production ready app. It is something I worked on as
-a personal project so I can learn and get better developing projects on Go.
+a personal project, so I can learn and get better developing projects with Go.
 
 ## Install
 
@@ -14,3 +14,4 @@ file in `/usr/local/etc/environment-sensor-recevier`.
 
 ## Options
 `-env` to set the environment to either `prod` for production or `local` for local dev.
+Default is `prod`.
